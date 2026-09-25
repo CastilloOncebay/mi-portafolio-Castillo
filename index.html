@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio Web | Castillo Oncebay</title>
+
+    <!-- CDN para los íconos de redes sociales (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+    <!-- ENCABEZADO Y PERFIL -->
+    <header>
+        <div class="contenedor">
+            <div class="perfil">
+                <div class="contenedorFoto">
+                    <img src="./imagenes/img.jpg" alt="Andre Castillo" class="foto" />
+                </div>
+                <div class="profile-info">
+                    <h1>Andre Castillo</h1>
+                    <p>Estudiante Ingenieria Sistemas e informatica</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECCIÓN SOBRE MÍ -->
+    <section id="sobre-mi">
+        <div class="contenedor">
+            <h2>Sobre Mí</h2>
+            <p>
+                ¡Hola! Estoy iniciando mi carrera en Ingeniería de Sistemas e Informática. Me motiva aprender a transformar ideas y lógica en código para construir herramientas tecnológicas útiles, eficientes e innovadoras.
+            </p>
+            <p>
+                Cuando no estoy practicando mi código, me la paso jugando videojuegos, escuchando música o viendo qué hay de nuevo en tech. Mi meta es aprender todo lo posible para crear apps o proyectos geniales que le hagan la vida más fácil a las personas.
+            </p>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PROYECTOS -->
+    <section id="proyectos">
+        <div class="contenedor">
+            <h2>Mis Proyectos</h2>
+            <div class="proyectos-container">
+                <div class="proyecto">
+                    <h3>TempTracker</h3>
+                    <p>Web para ver el tiempo en línea de cada ciudad</p>
+                </div>
+
+                <div class="proyecto">
+                    <h3>VocaLingo</h3>
+                    <p>Especio de traductor de voz y texto con diferentes opciones de idiomas comunes.</p>
+                </div>
+
+                <div class="proyecto">
+                    <h3>Quiz</h3>
+                    <p>App que refuerza los conocimientos de los estudiantes de primer ciclo en los diversos cursos con preguntas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN HABILIDADES -->
+    <section id="habilidades">
+        <div class="contenedor">
+            <h2>Habilidades</h2>
+            <div class="habilidades-lista">
+                <div class="habilidad">MIT App Inventor</div>
+                <div class="habilidad">HTML</div>
+                <div class="habilidad">CSS</div>
+                <div class="habilidad">JavaScript</div>
+                <div class="habilidad">GitHub</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto">
+        <div class="contenedor">
+            <h2>Contacto</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Nombre" required />
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required />
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Mensaje" rows="5" required></textarea>
+                </div>
+                <button type="button" onclick="pop_up('Mensaje enviado correctamente')">
+                    Enviar Mensaje
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA Y REDES SOCIALES -->
+    <footer>
+        <div class="contenedor">
+            <div class="enlaces">
+                <a href="https://github.com/CastilloOncebay"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+            <p>&copy; 2026 Desarrollado por Andre Castillo - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT JS -->
+    <script src="./codigo.js"></script>
+</body>
+</html>
